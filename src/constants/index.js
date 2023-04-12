@@ -97,10 +97,6 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
     name: "php",
     icon: php,
   },
@@ -151,7 +147,7 @@ const projects = [
         name: "react",
         color: "blue-text-gradient",
       },
-	  {
+      {
         name: "restapi",
         color: "green-text-gradient",
       },
@@ -161,8 +157,7 @@ const projects = [
   },
   {
     name: "ecommerce",
-    description:
-      "Web application that enables users to search and buy things",
+    description: "Web application that enables users to search and buy things",
     tags: [
       {
         name: "nextjs",
