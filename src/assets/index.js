@@ -11,6 +11,9 @@ import indra from "./company/indra.png";
 import freelance from "./company/freelance.png";
 
 import css from "./tech/css.png";
+import php from "./tech/php.png";
+import jest from "./tech/jest.png";
+import cypress from "./tech/cypress.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -48,10 +51,13 @@ export {
   javascript,
   mongodb,
   nodejs,
+  cypress,
   reactjs,
   redux,
   tailwind,
   typescript,
+  php,
+  jest,
   threejs,
   carrent,
   jobit,

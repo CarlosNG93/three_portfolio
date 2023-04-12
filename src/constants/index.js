@@ -1,8 +1,9 @@
 import {
   backend,
-  frontend,
+  php,
   web,
   javascript,
+  creator,
   typescript,
   html,
   css,
@@ -48,7 +49,7 @@ const services = [
   },
   {
     title: "Frontend Developer",
-    icon: frontend,
+    icon: creator,
   },
 ];
 
@@ -104,6 +105,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "php",
+    icon: php,
   },
 ];
 
