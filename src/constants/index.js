@@ -5,6 +5,9 @@ import {
   javascript,
   creator,
   typescript,
+  cypress,
+  jest,
+  fitness,
   html,
   css,
   reactjs,
@@ -13,13 +16,12 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
+  youtube,
   indra,
   freelance,
-  carrent,
-  jobit,
-  tripguide,
+  restaurant,
+  ecommerce,
+  metric,
   threejs,
 } from "../assets";
 
@@ -99,16 +101,16 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
     name: "php",
     icon: php,
+  },
+  {
+    name: "cypress",
+    icon: cypress,
+  },
+  {
+    name: "jest",
+    icon: jest,
   },
 ];
 
@@ -134,39 +136,54 @@ const experiences = [
     date: "May 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Youtube Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search and listen music",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
+	  {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+    ],
+    image: youtube,
+    source_code_link: "https://github.com/CarlosNG93/youtube_clone",
+  },
+  {
+    name: "ecommerce",
+    description:
+      "Web application that enables users to search and buy things",
+    tags: [
       {
-        name: "mongodb",
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "sanity",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/CarlosNG93/ecommerce",
   },
   {
-    name: "Job IT",
+    name: "Fitness App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that allows users to search for exercises according to each part of the body, as well as explanatory videos.",
     tags: [
       {
         name: "react",
@@ -177,24 +194,45 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: fitness,
+    source_code_link: "https://github.com/CarlosNG93/fitness",
   },
   {
-    name: "Trip Guide",
+    name: "Metric's App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that allows users to search for products and sort them by category.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "redux thunk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: metric,
+    source_code_link: "https://github.com/CarlosNG93/prueba",
+  },
+  {
+    name: "Restaurant",
+    description:
+      "Responsive web design of a restaurant.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "responsive",
         color: "green-text-gradient",
       },
       {
@@ -202,8 +240,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: restaurant,
+    source_code_link: "https://github.com/CarlosNG93/restaurant",
   },
 ];
 

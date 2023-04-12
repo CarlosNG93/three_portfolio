@@ -28,8 +28,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import carrent from "./carrent.png";
+import ecommerce from "./ecommerce.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import youtube from "./youtb.png";
+import fitness from "./fitness.png";
+import metric from "./metric.png";
+import restaurant from "./restaurant.png";
 
 export {
   logo,
@@ -37,14 +42,19 @@ export {
   backend,
   creator,
   mobile,
+  ecommerce,
   web,
   indra,
+  fitness,
+  restaurant,
   freelance,
   github,
   menu,
   close,
   css,
+  youtube,
   docker,
+  metric,
   figma,
   git,
   html,
