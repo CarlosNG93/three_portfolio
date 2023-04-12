@@ -201,48 +201,6 @@ const projects = [
     image: fitness,
     source_code_link: "https://github.com/CarlosNG93/fitness",
   },
-  {
-    name: "Metric's App",
-    description:
-      "Web application that allows users to search for products and sort them by category.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux thunk",
-        color: "green-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: metric,
-    source_code_link: "https://github.com/CarlosNG93/prueba",
-  },
-  {
-    name: "Restaurant",
-    description:
-      "Responsive web design of a restaurant.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "responsive",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: restaurant,
-    source_code_link: "https://github.com/CarlosNG93/restaurant",
-  },
 ];
 
 export { services, technologies, experiences, projects };
